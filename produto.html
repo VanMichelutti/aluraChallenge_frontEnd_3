@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura Geek</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/produto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/ico.svg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <a href="./index.html"><img src="./assets/img/logo.svg" alt="Logo da Alura Geek" class="header_logo"></a>
+            <div class="search-box">
+                <input type="text" placeholder="O que deseja encontrar?" class="search-box_input">
+                <img src="./assets/img/lupa.svg" alt="Lupa da barra de pesquisa" class="search-box_icon">
+            </div>
+        </div>
+        <button class="login-button" onclick="window.location.href='login.html'">Login</button>
+    </header>
+
+    <main>
+        <section class="product-onsale">
+            <img src="./assets/img/starWars-01.svg" alt="Caneca Stormtrooper" class="product-onsale_image">
+            <div class="product-onsale_textbox">
+                <h3 class="product-onsale_title">Caneca Stormtrooper</h3>
+                <p class="product-onsale_price">R$60,00</p>
+                <p class="product-onsale_more">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2 class="products-section_similar">Produtos similares</h2>
+            <ul class="products-section_similar_list">
+                <li class="product-box">
+                    <img src="./assets/img/console-01.png" alt="Controle Xbox Series" class="product-box_image">
+                    <h3 class="product-box_name">Controle Xbox Series</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+                <li class="product-box">
+                    <img src="./assets/img/starWars-02.png" alt="Capacetes LEGO" class="product-box_image">
+                    <h3 class="product-box_name">Capacetes LEGO</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+                <li class="product-box">
+                    <img src="./assets/img/starWars-03.png" alt="Boneco Yoda" class="product-box_image">
+                    <h3 class="product-box_name">Boneco Yoda</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+                <li class="product-box">
+                    <img src="./assets/img/starWars-04.png" alt="Boneco Stormtrooper" class="product-box_image">
+                    <h3 class="product-box_name">Boneco Stormtrooper</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+                <li class="product-box product-box--hide">
+                    <img src="./assets/img/starWars-05.png" alt="Boneco Baby Yoda" class="product-box_image">
+                    <h3 class="product-box_name">Boneco Baby Yoda</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+                <li class="product-box product-box--hide">
+                    <img src="./assets/img/starWars-06.png" alt="Boneco Kylo Ren" class="product-box_image">
+                    <h3 class="product-box_name">Boneco Kylo Ren</h3>
+                    <p class="product-box_price">R$ 60,00</p>
+                    <a href="#" class="product-box_about">Ver produto</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_container-about">
+                <div class="footer-image">
+                    <a href="./index.html"><img src="./assets/img/logo.svg" alt="Logo da Alura Geek" class="footer_logo"></a>
+                </div>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Quem somos nós</a></li>
+                    <li><a href="#" class="footer_link">Política de privacidade</a></li>
+                    <li><a href="#" class="footer_link">Programa fidelidade</a></li>
+                    <li><a href="#" class="footer_link">Nossas lojas</a></li>
+                    <li><a href="#" class="footer_link">Quero ser franqueado</a></li>
+                    <li><a href="#" class="footer_link">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="footer_form">
+                <h3 class="footer_form-title">Fale conosco</h3>
+                <div class="footer_form-name">
+                    <label for="name" class="footer_form-name_label">Nome</label>
+                    <input type="text" id="name" class="footer_form-name_box" placeholder="Digite seu nome" required>
+                </div>
+                <textarea name="message" id="message" rows="3" placeholder="Escreva sua mensagem" class="footer_form-message_box"></textarea>
+                <button class="footer_form-button">Enviar mensagem</button>
+            </form>
+        </div>
+    </footer>
+    <section class="developer">
+        <p class="developer_name">Desenvolvido por Vinícius Michelutti</p>
+        <p>2022</p>
+    </section>
+</body>
+
+</html>
