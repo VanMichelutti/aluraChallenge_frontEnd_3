@@ -17,3 +17,14 @@
 **Tecnologias utilizadas:**
 - HTML
 - CSS
+
+<br>
+
+**Sobre mim**
+
+GitHub:
+https://github.com/VanMichelutti
+
+LinkedIn:
+<a href="https://br.linkedin.com/in/vin%C3%ADcius-michelutti-022344234?trk=profile-badge">Vinícius Michelutti</a></div>
+              
