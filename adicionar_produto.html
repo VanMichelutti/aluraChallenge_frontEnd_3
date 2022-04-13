@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura Geek</title>
+
+    <link rel="stylesheet" href="./styles/css/reset.css">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="stylesheet" href="./styles/css/adicionar_produto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/ico.svg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <a href="./index.html"><img src="./assets/img/logo.svg" alt="Logo da Alura Geek" class="header_logo"></a>
+            <div class="search-box">
+                <input type="text" placeholder="O que deseja encontrar?" class="search-box_input">
+                <img src="./assets/img/lupa.svg" alt="Lupa da barra de pesquisa" class="search-box_icon">
+            </div>
+        </div>
+        <button class="login-button" onclick="window.location.href='login.html'">Login</button>
+    </header>
+
+    <main>
+        <section class="add_product">
+            <h3 class="add_product-tile">Adicionar novo produto</h3>
+            <div class="add_product-image_selection">
+                <div class="add_product-dropIn">
+                    <i><img src="./assets/img/dropIn.png" alt=""></i>
+                    <p>Arraste para adicionar uma nova imagem para o produto</p>
+                </div>
+                <p>Ou</p>
+                <button class="add_product-searchImage">Procure no seu computador</button>
+            </div>
+            <form class="add_product_form">
+                <div class="add_product-box">
+                    <input type="text" id="add_product-name" class="add_product-name_input">
+                    <label for="add_product-name" class="add_product-name_label">Nome do produto</label>
+                    
+                </div>
+                <div class="add_product-box">
+                    <input type="text" id="add_product-price" class="add_product-price_input">
+                    <label for="add_product-price" class="add_product-price_label">Preço do produto</label>                    
+                </div>
+                <div class="add_product-box">
+                    <textarea name="" class="add_product-description_input" id="add_product-description" rows="3"></textarea>
+                    <label for="add_product-description" class="add_product-description_label" >Descrição do produto</label>
+                </div>
+            </form>
+            <button type="submit" class="add_product-button_subimt">Adicionar produto</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_container-about">
+                <div class="footer-image">
+                    <a href="./index.html"><img src="./assets/img/logo.svg" alt="Logo da Alura Geek" class="footer_logo"></a>
+                </div>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Quem somos nós</a></li>
+                    <li><a href="#" class="footer_link">Política de privacidade</a></li>
+                    <li><a href="#" class="footer_link">Programa fidelidade</a></li>
+                    <li><a href="#" class="footer_link">Nossas lojas</a></li>
+                    <li><a href="#" class="footer_link">Quero ser franqueado</a></li>
+                    <li><a href="#" class="footer_link">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="footer_form">
+                <h3 class="footer_form-title">Fale conosco</h3>
+                <div class="footer_form-name">
+                    <label for="name" class="footer_form-name_label">Nome</label>
+                    <input type="text" id="name" class="footer_form-name_box" placeholder="Digite seu nome" required>
+                </div>
+                <textarea name="message" id="message" rows="3" placeholder="Escreva sua mensagem" class="footer_form-message_box"></textarea>
+                <button class="footer_form-button" type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+    </footer>
+    <section class="developer">
+        <p class="developer_name">Desenvolvido por Vinícius Michelutti</p>
+        <p>2022</p>
+    </section>
+</body>
+
+</html>
