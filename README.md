@@ -6,6 +6,12 @@
 
 <br>
 
+**Vercel**
+
+https://alura-challenge-front-end-3-psi.vercel.app/
+
+<br>
+
 **Objetivo:** Desenvolver um site e-commerce para uma loja geek.
 
 <br>
