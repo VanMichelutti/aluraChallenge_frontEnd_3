@@ -154,7 +154,7 @@ body{
     }
 
 .hero{
-    background: url(../img/banner-image.png) center;
+    background: url(../../assets/img/banner-image.png) center;
     background-size: cover;
     color: var(--branco100);
     display: flex;
