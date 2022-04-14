@@ -1,0 +1,41 @@
+.all_products-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5em 1.5em;
+    box-sizing: border-box;
+}
+
+.all_products-section_header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+}
+
+.all_products-section-title{
+    color: var(--preto100);
+    font-size: 32px;
+    font-weight: 700;    
+}
+
+.button-add_product{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid var(--azul100);
+    color: var(--branco100);
+    background-color: var(--azul100);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 12em;
+    width: 100%;
+    padding: 15px 10px;
+}
+    .button-add_product:hover {
+        transition: 300ms;
+        cursor: pointer;
+        background-color: var(--azul80);
+        border: 1px solid var(--azul80);
+    }
+
+.products-section_list{
+    margin-top: 0;
+    row-gap: 4em;
+}
