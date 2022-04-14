@@ -32,7 +32,7 @@ main{
     background-color: var(--branco100);
 }
 
-.add_product-searchImage{
+.add_product-searchImage-button{
     width: 40%;
     height: 25%;
     font-family: 'Raleway', sans-serif;
@@ -45,6 +45,11 @@ main{
     width: fit-content;
     box-sizing: border-box;
 }
+    .add_product-searchImage-button:hover{
+        transition: 300ms;
+        cursor: pointer;
+        background-color: var(--azul20);
+    }
 
 .add_product_form{
     margin-top: -2em;
@@ -132,3 +137,9 @@ main{
     margin-top: 3em;
     margin-bottom: 5em;
 }
+    .add_product-button_subimt:hover {
+        transition: 300ms;
+        cursor: pointer;
+        background-color: var(--azul80);
+        border: 1px solid var(--azul80);
+    }
