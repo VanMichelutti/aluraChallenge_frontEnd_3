@@ -20,6 +20,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+main{
+    background-color: var(--preto05);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +49,6 @@ body{
             grid-template-columns: 1fr 2fr;
         }
     }
-
 
 .header_logo:hover, .footer_logo:hover {
     transition: 150ms;
@@ -200,19 +203,24 @@ body{
         }
     }
 
+
 .products-section{
     max-width: 1200px;
     padding: 0 1.5em;
+    padding-top: 5em;
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
 }
 
+    .products-section:last-of-type{
+        padding-bottom: 5em;
+    }
+
 .products-section_starWars, .products-section_consoles, .products-section_others {
     font-size: 32px;
     font-weight: 700;
     color: var(--preto100);
-    margin-top: 2em;
 }
 
 .products-section_list{
@@ -221,8 +229,8 @@ body{
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    margin: 5em auto;
-    margin-top: 1.5em;
+    margin: 0 auto;
+    margin-top: 1em;
     gap: 15px;
 }
     @media screen and (max-width: 1200px){
@@ -420,6 +428,7 @@ body{
 }
 
 .developer{
+    color: var(--preto100);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
