@@ -125,7 +125,8 @@ main{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 4em;
-    width: fit-content;
+    max-width: 12em;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -149,7 +150,9 @@ main{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 32px;
-    width: fit-content;
+    max-width: 12em;
+    width: 100%;
+    /*width:fit-content*/
     box-sizing: border-box;
 }
 

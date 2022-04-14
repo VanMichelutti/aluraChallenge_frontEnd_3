@@ -15,7 +15,8 @@ main {
     }
 
 .form_login-title{
-    font-size: 18px;
+    color: var(--preto100);
+    font-size: 22px;
     font-weight: 700;
     margin: 30px 0;
 }
