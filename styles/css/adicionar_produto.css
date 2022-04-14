@@ -7,8 +7,22 @@ main{
     max-width: 600px;
     margin: 0 auto;
     box-sizing: border-box;
-    
+    padding: 0 1.5em;
 }
+    @media screen and (max-width: 768px) {
+        .add_product{
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .add_product-image_selection > p{
+            display: none;
+        }
+        .add_product-searchImage-button{
+            display: none;
+        }
+    }
 
 .add_product-tile{
     padding-top: 2em;
@@ -17,6 +31,11 @@ main{
     font-size: 32px;
     font-weight: 700;
 }
+    @media screen and (max-width: 768px) {
+        .add_product-tile{
+            font-size: 24px;
+        }
+    }
 
 .add_product-image_selection{
     display: flex;
@@ -30,6 +49,20 @@ main{
     text-align: center;
     border: 1px var(--preto50) dashed;
     background-color: var(--branco100);
+}
+    @media screen and (max-width: 768px) {
+        .add_product-dropIn{
+            width: 100%;
+        }
+        .add_product-dropIn_icon{
+            content: url(../../assets/img/mais.png);
+        }
+    }
+
+@media screen and (max-width: 768px){
+    .add_product-dropIn_text::after{
+        content: "-----";
+    }
 }
 
 .add_product-searchImage-button{
@@ -60,6 +93,11 @@ main{
     max-width: 600px;
     margin: 3em 0;
 }
+    @media screen and (max-width: 768px) {
+        .add_product-box{
+            max-width: 100%;
+        }
+    }
 
 .add_product-name_label{
     position: relative;
