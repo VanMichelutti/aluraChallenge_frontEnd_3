@@ -10,12 +10,26 @@
     justify-content: space-between;
     padding-bottom: 1.5em;
 }
+    @media screen and (max-width:768px) {
+        .all_products-section{
+            padding: 2em 1.5em;
+        }
+        .all_products-section_header{
+            display: block;
+        }
+    }
 
 .all_products-section-title{
     color: var(--preto100);
     font-size: 32px;
     font-weight: 700;    
 }
+    @media screen and (max-width:768px) {
+        .all_products-section-title{
+            font-size: 26px;
+            padding-bottom: 1em;
+        }
+    }
 
 .button-add_product{
     font-family: 'Raleway', sans-serif;
@@ -38,4 +52,27 @@
 .products-section_list{
     margin-top: 0;
     row-gap: 4em;
+}    
+    @media screen and (max-width:768px) {
+        .products-section_list{
+            row-gap: 2em;
+    }
 }
+
+.product-box{
+    position: relative;
+}
+
+.product_options{
+    right: 0;
+    position: absolute;
+    padding: 0.75em 0.3em;
+}
+
+.product_options > img{
+    padding: 0 0.5em;
+}
+    .product_options > img:hover{
+        cursor: pointer;
+        transform: scale(1.25);
+    }
