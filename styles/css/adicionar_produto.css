@@ -8,7 +8,13 @@ main{
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 1.5em;
-}
+}    
+    @media screen and (max-width: 1200px) {
+        .add_product{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
     @media screen and (max-width: 768px) {
         .add_product{
             max-width: 100%;
@@ -42,14 +48,27 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+    @media screen and (max-width: 1200px) {
+        .add_product-image_selection{
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
 
 .add_product-dropIn{
     width: 40%;
-    padding: 3em 2em;
+    padding: 3em 1em;
     text-align: center;
     border: 1px var(--preto50) dashed;
     background-color: var(--branco100);
+    color: var(--preto80);
+    
 }
+    @media screen and (max-width: 1200px) {
+        .add_product-dropIn{
+            width: 30%;
+        }
+    }
     @media screen and (max-width: 768px) {
         .add_product-dropIn{
             width: 100%;
@@ -59,10 +78,20 @@ main{
         }
     }
 
-@media screen and (max-width: 768px){
-    .add_product-dropIn_text::after{
-        content: "-----";
+.add_product-dropIn_text{
+        padding-top: 1em;
     }
+    .add_product-dropIn_text::before{
+        content: "Arraste para adicionar uma nova imagem para o produto";
+    }
+        @media screen and (max-width: 768px) {
+            .add_product-dropIn_text::before{
+                content: "Adicionar uma imagem para o produto";
+            }
+        }
+
+.add_product-or{
+    margin: 0 1em;
 }
 
 .add_product-searchImage-button{
@@ -78,10 +107,22 @@ main{
     width: fit-content;
     box-sizing: border-box;
 }
+    .add_product-searchImage-button::before{
+        content: "Procure no seu computador";
+    }
+
     .add_product-searchImage-button:hover{
         transition: 300ms;
         cursor: pointer;
         background-color: var(--azul20);
+    }
+    @media screen and (max-width: 1200px) {
+        .add_product-searchImage-button::before{
+            content: "Procure no seu tablet";
+        }
+        .add_product-searchImage-button{
+            width: 30%;
+        }
     }
 
 .add_product_form{
@@ -93,6 +134,12 @@ main{
     max-width: 600px;
     margin: 3em 0;
 }
+    @media screen and (max-width: 1200px) {
+        .add_product-box{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
     @media screen and (max-width: 768px) {
         .add_product-box{
             max-width: 100%;
@@ -101,9 +148,10 @@ main{
 
 .add_product-name_label{
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px 0 0 10px;
     color: var(--preto50);
+    top: 0.5em;
 }
 
 .add_product-name_input{
@@ -114,10 +162,11 @@ main{
     border-radius: 2px;
     box-shadow: 0px 1px 0px var(--preto50);
     padding: 10px 10px;
-    padding-top: 20px;
+    padding-top: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-style: none;
+    height: 3.5em;
 }
 
 .add_product-price_input{
@@ -128,17 +177,19 @@ main{
     border-radius: 2px;
     box-shadow: 0px 1px 0px var(--preto50);
     padding: 10px 10px;
-    padding-top: 20px;
+    padding-top: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-style: none;
+    height: 3.5em;
 }
 
 .add_product-price_label{
     position: relative;
     padding: 5px 0 0 10px;
     color: var(--preto50);
-    font-size: 16px;
+    font-size: 14px;
+    top: 0.5em;
 }
 
 .add_product-description_input{
@@ -148,7 +199,7 @@ main{
     border-radius: 2px;
     box-shadow: 0px 1px 0px var(--preto50);
     padding: 10px 10px;
-    padding-top: 20px;
+    padding-top: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-style: none;
@@ -160,7 +211,8 @@ main{
     position: relative;
     padding: 5px 0 0 10px;
     color: var(--preto50);
-    font-size: 16px;
+    font-size: 14px;
+    top: 0.5em;
 }
 
 .add_product-button_submit{
