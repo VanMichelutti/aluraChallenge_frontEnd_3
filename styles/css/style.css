@@ -207,6 +207,11 @@ main{
         }
     }
 
+.products-section_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .products-section{
     max-width: 1200px;
@@ -220,6 +225,18 @@ main{
     .products-section:last-of-type{
         padding-bottom: 5em;
     }
+
+.products-section_see-all{
+    text-decoration: none;
+    color: var(--azul100);
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+}
+
+.products-section_see-all > img{
+    margin-left: 0.5em;
+}
 
 .products-section_starWars, .products-section_consoles, .products-section_others {
     font-size: 32px;
