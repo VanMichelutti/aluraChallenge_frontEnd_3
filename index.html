@@ -36,7 +36,7 @@
             <div class="hero-banner">
                 <h1 class="hero_title">Dezembro Promocional</h1>
                 <p class="hero_title_about">Produtos selecionados com 33% de desconto</p>
-                <button class="hero_button" onClick="document.getElementById('products-section_consoles').scrollIntoView({behavior: 'auto', block: 'center', inline: 'center'});;">Ver Consoles</button>
+                <button class="hero_button" onClick="document.getElementById('products-section_consoles').scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});;">Ver Consoles</button>
             </div>
         </section>
 
@@ -45,44 +45,7 @@
                 <h2 class="products-section_starWars">Star Wars</h2>
                 <a href="gerenciar_produtos.html" class="products-section_see-all">Ver tudo<img src="./assets/img/seta.svg" alt="Ícone Ver Tudo"></a>
             </div>
-            <ul class="products-section_list">
-                <li class="product-box">
-                    <img src="./assets/img/starWars-01.svg" alt="Caneca Stormtrooper" class="product-box_image">
-                    <h3 class="product-box_name">Caneca Stormtrooper</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="./produto.html" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/starWars-02.png" alt="Capacetes LEGO" class="product-box_image">
-                    <h3 class="product-box_name">Capacetes LEGO</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/starWars-03.png" alt="Boneco Yoda" class="product-box_image">
-                    <h3 class="product-box_name">Boneco Yoda</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/starWars-04.png" alt="Boneco Stormtrooper" class="product-box_image">
-                    <h3 class="product-box_name">Boneco Stormtrooper</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/starWars-05.png" alt="Boneco Baby Yoda" class="product-box_image">
-                    <h3 class="product-box_name">Boneco Baby Yoda</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/starWars-06.png" alt="Boneco Kylo Ren" class="product-box_image">
-                    <h3 class="product-box_name">Boneco Kylo Ren</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-            </ul>
+            <ul class="products-section_list" data-section-starWars></ul>
         </section>
 
         <section class="products-section" id="products-section_consoles">
@@ -90,44 +53,7 @@
                <h2 class="products-section_consoles">Consoles</h2>
                <a href="gerenciar_produtos.html" class="products-section_see-all">Ver tudo<img src="./assets/img/seta.svg" alt="Ícone Ver Tudo"></a>
             </div>
-            <ul class="products-section_list">
-                <li class="product-box">
-                    <img src="./assets/img/console-01.png" alt="Controle Xbox Series" class="product-box_image">
-                    <h3 class="product-box_name">Controle Xbox Series</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/console-02.png" alt="Playstation 5 e controle" class="product-box_image">
-                    <h3 class="product-box_name">Playstation 5 com controle</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/console-03.png" alt="Nintendo Old School" class="product-box_image">
-                    <h3 class="product-box_name">Nintendo Old School</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/console-04.png" alt="Controle Nintendo Switch" class="product-box_image">
-                    <h3 class="product-box_name">Controle Nintendo Switch</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/console-05.png" alt="Xbox Series X" class="product-box_image">
-                    <h3 class="product-box_name">Xbox Series X</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/console-06.png" alt="Game Boy Color" class="product-box_image">
-                    <h3 class="product-box_name">Game Boy Color</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-            </ul>
+            <ul class="products-section_list" data-section-consoles></ul>
         </section>
 
         <section class="products-section">
@@ -135,44 +61,7 @@
                 <h2 class="products-section_others">Diversos</h2>
                 <a href="gerenciar_produtos.html" class="products-section_see-all">Ver tudo<img src="./assets/img/seta.svg" alt="Ícone Ver Tudo"></a>
             </div>
-            <ul class="products-section_list">
-                <li class="product-box">
-                    <img src="./assets/img/diverso-01.png" alt="Camiseta Atari" class="product-box_image">
-                    <h3 class="product-box_name">Camiseta Atari</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/diverso-02.png" alt="Camiseta SNES" class="product-box_image">
-                    <h3 class="product-box_name">Camiseta SNES</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/diverso-03.png" alt="Boneco Sonic" class="product-box_image">
-                    <h3 class="product-box_name">Boneco Sonic</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box">
-                    <img src="./assets/img/diverso-04.png" alt="Rádio relógio retrô" class="product-box_image">
-                    <h3 class="product-box_name">Rádio relógio retrô</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/diverso-05.png" alt="Playstation VR" class="product-box_image">
-                    <h3 class="product-box_name">Playstation VR</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-                <li class="product-box product-box--hide">
-                    <img src="./assets/img/diverso-06.png" alt="Pikachu Costume" class="product-box_image">
-                    <h3 class="product-box_name">Pikachu Costume</h3>
-                    <p class="product-box_price">R$ 60,00</p>
-                    <a href="#" class="product-box_about">Ver produto</a>
-                </li>
-            </ul>
+            <ul class="products-section_list" data-section-diversos></ul>
         </section>
     </main>
 
@@ -207,5 +96,7 @@
         <p>2022</p>
     </section>
 </body>
+
+<script type="module" src="./service/service.js"></script>
 
 </html>

@@ -1,0 +1,148 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Caneca Stormtrooper",
+            "price": "R$ 59,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-01.svg"
+        },
+        {
+            "id": 2,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Capacetes LEGO",
+            "price": "R$ 99,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-02.png"
+        },
+        {
+            "id": 3,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Action Figure Yoda",
+            "price": "R$ 159,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-03.png"
+        },
+        {
+            "id": 4,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Action Figure Stormtrooper",
+            "price": "R$239,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-04.png"
+        },
+        {
+            "id": 5,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Action Figure Baby Yoda",
+            "price": "R$ 179,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-05.png"
+        },
+        {
+            "id": 6,
+            "dataCategory": "[data-section-starWars]",
+            "name": "Action Figure Kylo Ren",
+            "price": "R$ 390,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/starWars-06.png"
+        },
+        {
+            "id": 7,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Controle Xbox Series",
+            "price": "R$ 399,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-01.png"
+        },
+        {
+            "id": 8,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Playstation 5 com controle",
+            "price": "R$ 4.299,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-02.png"
+        },
+        {
+            "id": 9,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Nintendo Old School",
+            "price": "R$ 799,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-03.png"
+        },
+        {
+            "id": 10,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Controle Nintendo Switch",
+            "price": "R$ 299,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-04.png"
+        },
+        {
+            "id": 11,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Xbox Series X",
+            "price": "R$ 3.999,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-05.png"
+        },
+        {
+            "id": 12,
+            "dataCategory": "[data-section-consoles]",
+            "name": "Game Boy Color",
+            "price": "R$ 299,99",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/console-06.png"
+        },
+        {
+            "id": 13,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Camiseta Atari",
+            "price": "R$ 59,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-01.png"
+        },
+        {
+            "id": 14,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Camiseta SNES",
+            "price": "R$ 59,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-02.png"
+        },
+        {
+            "id": 15,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Action Figure Sonic",
+            "price": "R$ 119,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-03.png"
+        },
+        {
+            "id": 16,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Rádio relógio retrô",
+            "price": "R$ 89,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-04.png"
+        },
+        {
+            "id": 17,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Playstation VR",
+            "price": "R$ 699,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-05.png"
+        },
+        {
+            "id": 18,
+            "dataCategory": "[data-section-diversos]",
+            "name": "Pikachu Costume",
+            "price": "R$ 139,90",
+            "description": "Inserir uma descrição aqui.",
+            "image": "./assets/img/diverso-06.png"
+        }
+    ]
+}
