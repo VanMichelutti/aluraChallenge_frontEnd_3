@@ -273,12 +273,12 @@ main{
     justify-content: space-between;
 }
     @media screen and (max-width: 1200px){
-        .product-box--hide{
+        .product-box:nth-last-child(-n+2){
             display: none;
         }        
     }
     @media screen and (max-width: 768px){
-        .product-box--hide{
+        .product-box:nth-last-child(-n+2){
             display: none;
         }
     }
